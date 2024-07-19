@@ -13,7 +13,7 @@ function ProjectCard(props) {
 
 	return (
 		<Link 
-			to={project.link}
+			to={project.href ? project.href : "/"}
 			onMouseEnter={() => setShowImg(true)}
 			onMouseLeave={() => setShowImg(false)}
 

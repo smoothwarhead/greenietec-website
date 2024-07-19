@@ -9,10 +9,10 @@ const MobileProjectCard = (props) => {
 
 	const [showImg, setShowImg] = useState(false);
 
-
+    
     return (
         <Link
-            to={project.link}
+            to={project.href ? project.href : "/"}
             onMouseEnter={() => setShowImg(true)}
             onMouseLeave={() => setShowImg(false)}
 

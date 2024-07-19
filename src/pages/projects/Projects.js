@@ -165,6 +165,8 @@ function Projects() {
 
 		const projects = data?.workCollection.items;
 
+
+
 		content = (
 
 			<div className="projects-scroller" ref={projectsScroller} style={{ color: cardColor }}>

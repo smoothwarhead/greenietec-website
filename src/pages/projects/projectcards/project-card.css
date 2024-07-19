@@ -1,10 +1,9 @@
-a {
+.project-inner a {
     text-decoration: none;
     width: 90%;
     height: fit-content;
     margin-bottom: 20px;
     position: relative;
-
 }
 
 .Project-card {
@@ -146,7 +145,7 @@ a {
 @media (min-width: 0px) and (max-width: 1024px){
 
   
-    a {
+    .project-inner a {
        
         width: 100%;
            
@@ -260,7 +259,7 @@ a {
     }
 
     .p-status{       
-        font-size: 2.25vw;       
+        font-size: 2.5vw;       
     }
     
 }
@@ -273,7 +272,7 @@ a {
         font-size: 4.75vw;
     }
     .p-status{       
-        font-size: 1.5vw;       
+        font-size: 1.75vw;       
     }
     
 }

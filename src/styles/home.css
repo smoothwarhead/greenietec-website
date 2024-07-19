@@ -1,0 +1,267 @@
+
+:root {
+	--green: #b2ff55;
+	--white: #ffffff;
+	--margin: 10px;
+	--font: Orelo SemiWide Heavy;
+	--font-mediun: Orelo SemiWide Medium;
+	--normal-font: Acumin Pro;
+	--gold: #f7dd95;
+	--vh: 8.09px
+}
+
+
+
+
+/* .home{
+	width: 100%;
+	height: 100vh;	
+	
+} */
+
+.home-scroller{
+	position: relative;
+    /* height: 100vh; */
+
+	height: calc(var(--vh, 1vh) * 100);
+}
+
+.home-scroller-inner{
+	height: 100%;
+	transform: 3d(0px, 0%, 0px);
+	transition: transform 0s linear .3s;
+}
+
+.page-intro{
+	position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 101vh;
+    height: calc(var(--vh, 1vh)*101);
+    padding: 60px 6% 80px 6%;
+	border: 1px solid green;
+
+}
+
+
+.home-section-up{
+	width: 100%;
+	height: 30%;
+	border: 1px solid red;
+    
+}
+
+.home-section-btm{
+	width: 70%;
+	height: 35%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column nowrap;
+	border: 1px solid red;
+
+	
+}
+
+
+.home-intro .home-section-up .home-intro-title{
+	font-family: var(--font-mediun);
+	font-size: 3.5em;
+	opacity: 1;	
+	color: var(--gold);
+	/* clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%); 
+	transform: translateY(20px);
+	text-align: left; */
+}
+
+.page-intro-title{
+	line-height: 58px;
+    max-width: 100%;
+}
+
+h1{
+	display: block;
+}
+
+
+.home-intro .home-section-btm .home-intro-text{
+	font-size: 1.15em;
+	font-family: var(--normal-font);
+	font-weight: 300;
+	color: #ffffff;
+	/* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+	opacity: 0;
+	transform: translateY(80px);
+	text-align: left; */
+}
+
+.page-intro-text{
+	line-height: 30px;
+    max-width: 100%;
+	
+}
+
+p{
+	display: block;
+}
+
+
+
+
+/* .home-scroller{
+	width: 100%;
+	height: 100vh;	
+	overflow-y: hidden;
+	
+}
+
+.home-scroller::-webkit-scrollbar{
+    width: 0px;
+}
+
+.home-scroller::-webkit-scrollbar-thumb{
+    background:transparent;
+    border-radius: 10px;
+} */
+
+
+
+/* .home-section {
+	
+	height: 100%;
+	width: 100%;
+	padding: 60px 0 20px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+} */
+/* .home-section-1{
+	background: #b2ff55;
+	
+}
+.home-section-2{
+	background: #9e911d;
+	
+}
+.home-section-3 {
+	background: #dc2b75;
+	
+}
+.home-section-4{
+	background: #55ff66;
+	
+}
+.home-section-5{
+	background: #d455ff;
+	
+}
+.home-section-6{
+	background: #29311e;
+	
+} */
+
+
+
+
+
+
+.devh2{
+	
+	font-size: 1.5em;
+	font-family: var(--normal-font);
+	font-weight: 600;
+	color: #ffffff;
+	line-height: 30px;
+	margin-bottom: 20px;
+	/* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+	opacity: 0;
+	transform: translateY(80px);
+	text-align: left; */
+	
+}
+
+
+
+.learn-more-btn {
+	background: transparent;
+	width: fit-content;
+	height: fit-content;
+	padding: 10px 40px;
+	outline: none;
+	margin-top: 30px;
+	border: 1px solid var(--gold);
+	color: var(--gold);
+	cursor: pointer;
+	position: relative;
+	transition: 0.4s ease-in-out;
+	z-index: 1;
+	font-weight: 500;
+	font-family: var(--normal-font);
+	/* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
+	opacity: 1;
+	/* transform: translateY(80px); */
+	text-align: left;
+	
+} 
+/* @keyframes learn-more-swap {
+	0% {
+		transform: translateY(50px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+} */
+.learn-more-btn:hover {
+	color: #060f1f;
+	font-weight: 500;
+}
+.learn-more-btn::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: var(--gold);
+	z-index: -1;
+	opacity: 0.8;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.4s ease-in-out;
+}
+.learn-more-btn:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+} 
+
+
+/*
+.h-2 {
+	margin-top: 220px;
+	font-family: "Acumin Pro";
+	font-size: clamp(1.6rem, 2vw, 3.5rem);
+	margin-bottom: 5px;
+}
+.flex {
+
+	display: flex;
+	padding-right: 15%;
+	justify-content: space-between;
+}
+.flex-dev {
+	
+	width: 50%;
+	text-align: left;
+	font: normal normal normal 40px/56px Orelo SemiWide Medium;
+	letter-spacing: 0px;
+	color: #f7dd95;
+}
+.flex-p {
+	font-size: 1rem;
+
+	width: 44%;
+}
+
+*/

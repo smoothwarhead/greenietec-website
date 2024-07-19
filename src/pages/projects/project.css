@@ -1,0 +1,355 @@
+:root {
+	--green: #b2ff55;
+	--white: #ffffff;
+	--margin: 10px;
+	--font: Orelo SemiWide Heavy;
+	--font-mediun: Botanika Medium;
+	--big-font: "griffon", "Aviano", "Times New Roman";
+
+
+	--gold: #f7dd95;
+}
+
+
+
+.projects-scroller {
+	height: 100%;
+	width: 100%;
+
+}
+
+.p-one {
+
+	height: 100vh;
+
+}
+
+.p-two {
+
+	height: fit-content;
+	padding: 40px 2% 80px 2%;
+
+}
+
+.p-three {
+	height: 80vh;
+	padding: 40px 2% 80px 2%;
+
+}
+
+.p-four {
+	color: white;
+	height: 100vh;
+
+	
+}
+
+
+.project-panel {
+	width: 100%;
+	
+}
+
+.project-bg {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.intro-section {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	/* z-index: 1; */
+	padding: 40px 2% 80px 4%;
+	
+
+}
+
+.project-panel .intro-h1 {
+	font-size: 86px;
+	font-family: var(--big-font);
+	width: 85%;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	
+}
+
+.project-panel .intro-p {
+	width: 65%;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	opacity: 0.8;
+	
+
+}
+
+
+
+
+.project-con {
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.project-inner {
+	height: 100%;
+	width: 72%;
+
+}
+
+
+.collab-card {
+	width: 100%;
+	height: fit-content;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	opacity: 0;
+	padding-bottom: 20px;
+	border: 0.5px solid grey;
+}
+
+.collab-header {
+	width: 100%;
+	height: fit-content;
+	padding: 10px 20px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.collab-con {
+	width: 100%;
+	height: 100%;
+	border-top: 0.5px solid grey;
+
+}
+
+.collab-con-inner {
+	width: 100%;
+	height: 90%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.collab-icon {
+	width: 23%;
+	height: 100%;
+	display: "flex";
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+
+}
+
+.collab-icon svg {
+	/* font-size: 1rem; */
+	color: var(--white);
+	width: 50%;
+	height: 50%;
+	fill: var(--white);
+	opacity: 0.5;
+
+
+}
+
+
+
+.collab-text-con {
+	width: 75%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+
+}
+
+.collab-text {
+	font-size: 60px;
+	font-family: var(--font-mediun);
+	/* text-align: center; */
+}
+
+.collab-btn {
+	width: fit-content;
+	height: fit-content;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	transition: all ease-in-out 0.7s;
+	cursor: pointer;
+
+
+}
+
+.collab-arrow {
+	font-size: 2rem;
+	margin-left: 10px;
+	display: none;
+}
+
+.collab-arrow.btn-active {
+	display: block;
+}
+
+
+.project-panel .footer {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(151deg, #10281d 25%, #05160f 75%);
+
+	color: #fff;
+	display: block;
+	opacity: 1;
+	z-index: 4;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1180px){
+	.collab-text{
+		font-size: 5vw;
+	}
+}
+
+
+@media (min-width: 0px) and (max-width: 1024px){
+
+	.projects-scroller {
+
+		height: calc(100vh - 120px);
+		 
+	}
+	
+	
+	  .project-panel {
+		top: 100px;
+	
+	   
+	  }
+
+	  .project-bg{
+		justify-content: center;
+
+	  }
+
+	  .project-inner {		
+		width: 100%;
+	
+	}
+  
+}
+
+
+@media (min-width: 0px) and (max-width: 840px){
+
+	.project-panel .intro-h1{
+		width: 100%;
+	}
+
+	.project-panel .intro-p{
+		width: 90%;
+	}
+
+}
+
+
+@media (min-width: 660px) and (max-width: 768px){
+
+	.project-panel .intro-h1{
+		font-size: 11vw;
+	}
+	
+	.collab-text{
+		font-size: 6vw;
+	}
+}
+
+@media (min-width: 560px) and (max-width: 660px){
+
+	.project-panel .intro-h1{
+		font-size: 11vw;
+	}
+
+	.project-panel .intro-p{
+		font-size: 2.5vw;
+
+	}
+
+	.collab-text{
+		font-size: 6.5vw;
+	}
+}
+
+@media (min-width: 460px) and (max-width: 560px){
+
+	.project-panel .intro-h1{
+		font-size: 12vw;
+	}
+
+	.project-panel .intro-p{
+		font-size: 3vw;
+
+	}
+
+	.collab-text{
+		font-size: 7vw;
+	}
+}
+
+
+@media (min-width: 360px) and (max-width: 460px){
+
+	.project-panel .intro-h1{
+		font-size: 12vw;
+	}
+
+	.project-panel .intro-p{
+		font-size: 3.5vw;
+
+	}
+	.collab-text{
+		font-size: 8vw;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 360px){
+
+	.project-panel .intro-h1{
+		font-size: 12vw;
+	}
+
+	.project-panel .intro-p{
+		font-size: 4vw;
+
+	}
+	.collab-text{
+		font-size: 8vw;
+	}
+}

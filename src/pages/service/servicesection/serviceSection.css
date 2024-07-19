@@ -1,0 +1,311 @@
+.service-section{
+    width: 100%;
+    height: 80vh;
+    scale: 0.8;
+    opacity: 0.2;
+    color: #000;
+    display: flex;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+
+
+}
+
+
+
+
+
+
+
+.s-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+	font-family: "griffon", "Aviano", "Times New Roman";
+   
+}
+
+
+
+.s-right{
+    width: 50%;
+    height: 100%;
+    padding: 0 0 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+
+.s-left-1{
+    font-size: 62px;
+
+}
+
+.s-left-2{
+    width: 100%;    
+    font-size: 2.25vw;
+    font-weight: bold;
+    
+}
+
+.flex-spacer{
+    height: 80px;
+}
+.s-right-1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+   
+
+}
+
+.service-attr{
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 10px;
+    margin: 0 10px 5px 0;
+    font-size: 1vw;
+    font-weight: 500;
+    border: 0.5px solid grey;
+
+}
+.s-right-2{
+    font-size: 1.125vw;
+    letter-spacing: 2px;
+    /* font-weight: 500; */
+    
+}
+
+
+@media (min-width: 1024px) and (max-width: 1180px){
+    .s-left-2{
+         
+        font-size: 3vw;
+       
+    }
+	.service-attr{       
+        font-size: 1.125vw;       
+    }
+
+    .s-right-2{
+        font-size: 1.5vw;         
+    }
+
+
+}
+
+
+@media (min-width: 960px) and (max-width: 1024px){
+    .s-left-2{
+         
+        font-size: 3.25vw;
+       
+    }
+	.service-attr{       
+        font-size: 1.25vw;       
+    }
+
+    .s-right-2{
+        font-size: 1.75vw;         
+    }
+
+
+}
+
+
+@media (min-width: 840px) and (max-width: 960px){
+    .s-left-2{
+         
+        font-size: 3.5vw;
+       
+    }
+	.service-attr{       
+        font-size: 1.5vw;       
+    }
+
+    .s-right-2{
+        font-size: 1.875vw;         
+    }
+
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 840px) {
+
+    .s-left-1{
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+
+   
+    .s-left-2{
+       font-size: 4vw;
+        
+    }
+
+    .service-attr{
+        font-size: 1.5vw;
+    
+    }
+    .s-right-2{
+        font-size: 1.875vw;
+        
+    }
+
+}
+
+
+@media (min-width: 640px) and (max-width: 768px) {
+
+   
+    .s-left-2{
+       font-size: 4.5vw;
+        
+    }
+
+    .service-attr{
+        font-size: 1.75vw;
+    
+    }
+    .s-right-2{
+        font-size: 2vw;
+        
+    }
+    .s-right{       
+        padding: 0 0 20px 20px;
+          
+    }
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 640px) {
+
+   
+    .service-section{
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .s-left{
+        width: 100%;
+        height: 35%;
+    }
+
+    .s-right{
+        width: 100%;
+        height: 65%;
+        padding: 0 0 20px 10px;
+
+    }
+
+    .s-left-2{
+        margin-top: 10px;
+       
+    }
+
+
+
+}
+
+@media (min-width: 540px) and (max-width: 640px) {
+
+   
+    .s-left-2{
+        font-size: 6.5vw;        
+    }
+
+    .service-attr{
+        font-size: 2vw;
+    
+    }
+    .s-right-2{
+        font-size: 2.625vw;
+        
+    }
+
+}
+
+
+@media (min-width: 440px) and (max-width: 540px) {
+
+   
+    .s-left-2{
+       font-size: 7.5vw;
+        
+    }
+
+    .service-attr{
+        font-size: 2.25vw;
+    
+    }
+    .s-right-2{
+        font-size: 2.625vw;
+        
+    }
+
+}
+
+
+@media (min-width: 375px) and (max-width: 440px) {
+
+   
+    .s-left-1{
+       font-size: 8vw;
+        
+    }
+    .s-left-2{
+       font-size: 7.5vw;
+        
+    }
+
+    .service-attr{
+        font-size: 2.75vw;
+    
+    }
+    .s-right-2{
+        font-size: 3.125vw;
+        
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 375px) {
+
+   
+    .s-left-1{
+       font-size: 7.5vw;
+        
+    }
+    .s-left-2{
+       font-size: 9vw;
+        
+    }
+
+    .service-attr{
+        font-size: 3vw;
+    
+    }
+    .s-right-2{
+        font-size: 3.75vw;
+        
+    }
+
+}

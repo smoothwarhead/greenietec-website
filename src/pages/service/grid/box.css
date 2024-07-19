@@ -1,0 +1,215 @@
+:root{
+    --green: #b2ff55;
+	--white: #ffffff;
+	--margin: 10px;
+	--font: Orelo SemiWide Heavy;
+	--font-mediun: Botanika Medium;
+
+	--gold: #f7dd95;
+}
+
+.box {
+	background: transparent;
+	/* height: 300px; */
+	border: 0.5px solid #f7dd95;
+	/* height: 100%; */
+	padding: 5% 7% 0% 7%;
+	cursor: pointer;
+	position: relative;
+	/* display: none; */
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	/* height: 100%; */
+}
+
+.box:hover .box-header,
+.box:hover .box-text {
+	color: black;
+	transition: all 0.4s ease-in-out;
+}
+.box::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: white;
+	z-index: -1;
+	opacity: 0.3;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.4s ease-in-out;
+}
+.box:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+.box-container {
+	/* background: darkslategrey; */
+}
+.numbering-card {
+	background: white;
+	width: 40px;
+	height: 40px;
+	color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: "griffon", "Aviano", "Times New Roman";
+
+}
+
+.display {
+	/* background: greenyellow; */
+	width: 100%;
+	/* height: 50%; */
+	display: flex;
+	justify-content: center;
+	/* display: none; */
+	/* width: 160px; */
+	height: 130px;
+	margin-bottom: 48px;
+}
+.asp {
+	/* background: burlywood; */
+	position: relative;
+	height: 100%;
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-letter {
+
+	margin-bottom: 3%;
+	height: 50%;
+}
+.box-header {
+	font-size: 24px;
+	margin-bottom: 35px;
+}
+.box-text {
+	font-size: 16px;
+	width: 100%;
+	line-height: normal;
+	margin: 0px;
+}
+.box-btn {
+	width: 40px;
+	height: 40px;
+	/* border-radius: 50%; */
+	text-decoration: none;
+	/* background: darkcyan; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* rotate: 120deg; */
+	margin-top: 5%;
+}
+.rotated-square {
+	width: 23px;
+	height: 23px;
+	/* background: royalblue; */
+	rotate: 45deg;
+	border: 1px solid #f7dd95;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	/* padding: 3%; */
+}
+.box:hover .rotated-square {
+	/* transform: translateX(-5%); */
+	transition: all 0.7s ease-in-out;
+	border: 1px solid black;
+}
+.line-container {
+	width: 23px;
+	height: 23px;
+	/* background: green; */
+	rotate: -45deg;
+	/* border: 1px solid #f7dd95; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	position: relative;
+	/* padding: 3%; */
+	transform: translateX(-50%);
+	transition: all 0.5s ease-in-out;
+}
+.box:hover .line-container {
+	transform: translateX(-5%);
+}
+.arrow-line {
+	height: 1px;
+	width: 100%;
+	border: 1px solid #f7dd95;
+	background: #f7dd95;
+	/* rotate: -45deg; */
+	/* transform: translateX(-74%); */
+	/* position: relative; */
+}
+.box:hover .arrow-line {
+	/* transform: translateX(-5%); */
+	border: 1px solid black;
+	background: black;
+	transition: all 1s ease-in-out;
+}
+.right-angle {
+	/* content: ""; */
+	height: 10px;
+	width: 10px;
+	/* border: 1px solid #f7dd95; */
+	/* background: darkorange; */
+	rotate: 45deg;
+	/* transform: translateX(-74%); */
+	display: block;
+	position: absolute;
+	right: 0%;
+	border-top: 2px solid #f7dd95;
+	border-right: 2px solid #f7dd95;
+}
+.box:hover .right-angle {
+	/* transform: translateX(-5%); */
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transition: all 1s ease-in-out;
+}
+@media (max-width: 440px) {
+	.box {
+		background: transparent;
+		/* height: 300px; */
+		border: 0.5px solid #f7dd95;
+		/* height: 100%; */
+		padding: 15% 5% 15% 7%;
+		cursor: pointer;
+		position: relative;
+		/* display: none; */
+	}
+	.box-container {
+		/* background: darkslategrey; */
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.box-letter {
+		width: 50%;
+	}
+	.display {
+		/* position: absolute;
+		right: 0;
+		top: ; */
+		width: 50%;
+	}
+	.box-header {
+		font-size: 16px;
+	}
+	.box-text {
+		font-size: 12px;
+	}
+}

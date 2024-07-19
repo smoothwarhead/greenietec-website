@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://use.typekit.net/jtf2ewr.css");
+
+
+@font-face {
+  font-family: 'AvianoFlareRegular';
+  src: local('AvianoFlareRegular'), 
+      url('./fonts/aviano/AvianoFlareRegular.otf') format('opentype');
+ 
+}
+@font-face {
+  font-family: 'Botanika';
+  src: local('Botanika'), 
+      url('./fonts/botanika/Botanika.otf') format('opentype');
+ 
+}
+
+@font-face {
+  font-family: 'Montserrat-VariableFont_wght';
+  src: local('Montserrat-VariableFont_wght'), 
+      url('./fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+ 
+}
+
+
+
+*::-webkit-scrollbar{
+  width: 2px;
+  
+ 
+}
+
+*::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  border: 2px solid #b2ff55;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+
+
+}
+
+
+
+
+
+.section-up{
+  width: 100%;
+  height: fit-content;
+  display: block;
+ 
+}
+
+.section-btm{
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  margin-top: 25%;
+  flex-flow: column nowrap;
+  letter-spacing: 2px; 
+  
+}
+
+
+.skeleton-wrapper{
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+ 
+}
+
+
+.skeleton-con{
+  height: 100%;
+  width: 72%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 2% 40px 2%;
+ 
+}
+
+.project-section{
+  width: 80%;
+  height: 100%;
+  padding-top: 30%;
+  margin: auto;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 960px) and (max-width: 1024px){
+
+
+  .section-btm{
+    margin-top: 10%;
+  }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 960px){
+
+
+  .section-btm{
+    width: 90%;
+    margin-top: 15%;
+    letter-spacing: 1px;
+  }
+
+}
+
+
+@media (min-width: 640px) and (max-width: 768px){
+
+
+  .section-btm{
+    width: 90%;
+    margin-top: 20%;
+    letter-spacing: 1px;
+  }
+
+}
+
+
+
+@media (min-width: 440px) and (max-width: 640px){
+
+
+  .section-btm{
+    width: 100%;
+    margin-top: 20%;
+    justify-content: flex-end;
+    letter-spacing: 0px;
+  }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 440px){
+
+
+  .section-btm{
+    width: 100%;
+    margin-top: 50%;
+    justify-content: flex-end;
+    letter-spacing: 0px;
+  }
+
+
+
+}

@@ -1,0 +1,76 @@
+.contact {
+	/* width: 78%;
+	height: 100vh; */
+	z-index: 20;
+	/* position: absolute;
+	top: 0px;
+	right: 0px; */
+	/* background: darkcyan; */
+}
+.con-form {
+	/* height: 100vh;
+	width: 100%; */
+	/* border: 1px solid aqua; */
+	padding: 6% 6% 0px 3%;
+	/* scroll-snap-align: start;
+	scroll-snap-align: end; */
+}
+.section-contact-3 {
+	/* border: 1px solid aquamarine; */
+	padding: 3% 0px 0px 5%;
+	/* display: none; */
+	width: 78%;
+}
+.contact-p {
+	display: flex;
+	/* background: rebeccapurple; */
+	width: 100%;
+	justify-content: center;
+}
+.contact-div {
+	/* background: seagreen; */
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	padding: 3% 5% 3% 0%;
+	margin-bottom: 1rem;
+	width: 89%;
+	border-bottom: 1px solid var(--gold);
+}
+.address {
+	/* font: normal normal bold 24px/30px Orelo SemiWide Extra; */
+	font-size: 24px;
+	font-family: "Orelo SemiWide Extra";
+	/* background: sienna; */
+	/* width: 10rem;
+	height: 6rem; */
+	width: 18%;
+	/* margin-right: 15%; */
+}
+.cont-add {
+	/* font: normal normal normal 54px/30px Acumin Pro; */
+	font-size: 48px;
+	font-family: "acumin pro";
+	/* background: teal; */
+	/* height: 100px;
+	z-index: 200; */
+	width: 63%;
+}
+.contact-social {
+	display: flex;
+	justify-content: space-around;
+	/* background: steelblue; */
+	padding: 0px 34% 0px 27.5%;
+	margin-top: 7%;
+}
+.contact-img {
+	width: 50px;
+	height: 50px;
+	/* background: white; */
+	/* border-radius: 15%; */
+}
+.contact-img svg {
+	fill: white;
+	width: 100%;
+	height: 100%;
+}

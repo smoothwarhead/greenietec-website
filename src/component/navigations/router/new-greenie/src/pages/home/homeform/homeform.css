@@ -1,0 +1,124 @@
+.home-form {
+	/* background: khaki; */
+	margin-top: 7%;
+	padding-right: 35%;
+}
+.home-form .inp {
+	/* background: darkslategrey; */
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+.input {
+	/* background: seagreen; */
+}
+label {
+	/* background: seagreen; */
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	height: 2.5rem;
+	outline: none;
+	border: 1px solid grey;
+	background: transparent;
+	padding: 2%;
+	font-size: 0.8rem;
+}
+textarea {
+	width: 100%;
+	height: 20vh;
+	background: transparent;
+	padding: 2%;
+	outline: none;
+	overflow: hidden;
+}
+.btn {
+	display: flex;
+	/* background: navy; */
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.attach,
+.submit {
+	width: 20%;
+	height: 40px;
+	outline: none;
+	border: 1px solid var(--white);
+	color: var(--white);
+	cursor: pointer;
+	position: relative;
+	transition: 0.4s ease-in-out;
+	z-index: 1;
+	font-weight: 600;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+}
+.attach::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: white;
+	z-index: -1;
+	/* opacity: 0.2; */
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.4s ease-in-out;
+}
+.attach:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+.attach:hover {
+	background: transparent;
+	transition: all 0.4s ease-in-out;
+	/* border: 1px solid #243553; */
+	color: #243553;
+}
+.submit {
+	background: var(--white);
+	color: #243553;
+	font-weight: 600;
+}
+.submit:hover {
+	background: transparent;
+	transition: all 0.4s ease-in-out;
+	border: 1px solid #243553;
+	color: var(--white);
+}
+.submit::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #243553;
+	z-index: -1;
+	/* opacity: 0.2; */
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.4s ease-in-out;
+}
+.submit:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+option {
+	background: #243553;
+	outline: none;
+	border: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+	border: 1px solid var(--gold);
+	transition: all 0.5s ease-in;
+}

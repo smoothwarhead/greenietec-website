@@ -1,0 +1,52 @@
+:root{
+    --green: #b2ff55;
+	--white: #ffffff;
+	--margin: 10px;
+	--font: Orelo SemiWide Heavy;
+	--font-medium: Botanika Medium;
+	--big-font: "griffon", "Aviano", "Times New Roman";
+
+
+	--gold: #f7dd95;
+
+  
+}
+
+
+
+.loader-wrap {
+  position: fixed;
+  z-index: 100000000000000000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: #CAD6EC;
+  top: 100%;
+  left: 0;
+   
+}
+
+
+
+.loader-wrap-heading{
+
+  font-size: 86px;
+  z-index: 20;
+  color: #060F1F;
+  font-family: var(--big-font);
+  
+  
+
+}
+
+
+@media (min-width: 0px) and (max-width: 1024px){
+
+  .loader-wrap{
+    display: none;
+  }
+
+}

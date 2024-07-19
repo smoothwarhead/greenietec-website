@@ -1,0 +1,264 @@
+@media (max-width: 850px) {
+	.home {
+		/* display: block; */
+	}
+	section {
+		/* padding: 50% 0% 0px 10%; */
+		display: block;
+	}
+	.section-left {
+		/* width: 22%; */
+		/* height: 50px; */
+		/* background: seagreen; */
+		display: none;
+	}
+	.section-right {
+		width: 100%;
+		height: 100vh;
+		/* background: rebeccapurple; */
+		/* border: 1px solid aqua; */
+		padding: 10% 0% 0px 7%;
+	}
+	.dev {
+		font-family: var(--font-mediun);
+		color: var(--gold);
+		font-size: 2.6rem;
+		/* font-size: clamp(2rem, 3vw, 6rem); */
+		font-weight: 500;
+		/* background: royalblue; */
+		width: calc(100% - 26%);
+		margin-bottom: calc(100vh - 490px);
+		/* margin-bottom: calc(100vw - 100%); */
+		/* margin-bottom: calc(calc(90vw - 100%) + calc(100vh - 30%)); */
+		/* margin-bottom: clamp(
+            calc(100vw - 200%),
+            calc(80vw - 100%),
+            calc(100vw - 100%)
+        ); */
+		/* position: relative; */
+	}
+	.home-p,
+	p {
+		/* font-size: 1rem; */
+		font-size: clamp(0.8rem, 2vw, 3rem);
+		/* font-family: var(--normal-font); */
+		font-weight: 300;
+		width: calc(100% - 38%);
+		line-height: 22px;
+		/* background-color: aqua; */
+		margin-bottom: 30px;
+	}
+	.learn-more-btn {
+		width: 130px;
+		height: 40px;
+	}
+	.flex {
+		/* background: steelblue; */
+		display: block;
+		padding-right: 15%;
+		/* justify-content: space-between; */
+	}
+	.flex-dev {
+		/* background: slateblue; */
+		width: 100%;
+		text-align: left;
+		font: normal normal normal 46px/56px Orelo SemiWide Medium;
+		letter-spacing: 0px;
+		color: #f7dd95;
+		margin-bottom: 80px;
+	}
+	.flex-p {
+		font-size: 1rem;
+		/* background: seagreen; */
+		width: 80%;
+		line-height: 30px;
+	}
+
+	/* homeform */
+	.form-home {
+		/* height: 100vh; */
+	}
+	.home-form-right {
+		/* height: 100%; */
+	}
+	.home-form {
+		/* background: khaki; */
+		margin-top: 7%;
+		padding: 5% 28% 0% 17%;
+		height: auto;
+	}
+	.home-form .inp {
+		/* background: darkslategrey; */
+		display: block;
+		/* grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+		margin-bottom: 1rem; */
+	}
+	.input {
+		/* background: seagreen; */
+		margin-bottom: 20px;
+	}
+	label {
+		/* background: seagreen; */
+		margin-bottom: 8px;
+		/* font-size: 12px; */
+	}
+	input {
+		width: 100%;
+		height: 3rem;
+		font-size: 0.8rem;
+	}
+	textarea {
+		width: 100%;
+		height: 18vh;
+	}
+	.btn {
+		display: flex;
+		/* background: navy; */
+		justify-content: space-between;
+		margin-top: 45px;
+	}
+	.attach,
+	.submit {
+		width: 28%;
+		height: 40px;
+	}
+
+	/* footer */
+
+	.footer {
+		background: #060f1f;
+		height: 100vh;
+		width: 100%;
+		/* z-index: 100; */
+		/* position: relative;
+		left: 0px;
+		bottom: 0px; */
+		display: block;
+		/* z-index: 100; */
+		/* display: none; */
+	}
+	.footer-side-bar {
+		width: 100%;
+		height: 60px;
+		border-right: none;
+		border-bottom: solid 1px gray;
+		padding: 5% 5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.social {
+		display: none;
+	}
+	.footer-main-body {
+		/* width: 78%; */
+		/* height: 93vh; */
+		padding: 15% 15% 0% 20%;
+		/* background: khaki; */
+	}
+	.upper {
+		display: block;
+		/* gap: 20%; */
+		/* background: lightblue; */
+		width: 100%;
+		margin-bottom: 30%;
+	}
+
+	.footer-card {
+		/* background: cornflowerblue; */
+		margin-bottom: 30px;
+	}
+	.footer-card h1 {
+		font: normal normal bold 62px/75px Orelo SemiWide Extra;
+		margin-bottom: 70px;
+	}
+	.mobile-social {
+		display: block;
+		/* background: seagreen; */
+		margin-bottom: 20%;
+	}
+	.social-h2 {
+		font-size: 32px;
+	}
+	.social-links {
+		display: flex;
+		/* background: skyblue; */
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 30%;
+	}
+	.social-links-li a {
+		text-decoration: none;
+		height: 40px;
+		width: 40px;
+		/* background: grey; */
+		/* border-radius: 5px; */
+	}
+	.copyright {
+		display: none;
+	}
+	.copyright-mobile {
+		/* background: goldenrod; */
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		font-size: 16px;
+		font-family: "acumin pro";
+		font-weight: 200;
+	}
+
+	/* scroll */
+	.scroll {
+		/* background: fuchsia; */
+		right: 50%;
+		bottom: 3%;
+	}
+
+	.scroll-line {
+		height: 40px;
+		width: 1px;
+	}
+
+	/* contact */
+	.contact-form {
+		/* background: darkseagreen; */
+		padding: 2% 30% 0px 13%;
+	}
+	.contact-form-btn {
+		margin-top: 25%;
+	}
+
+	.section-contact-3 {
+		/* border: 1px solid aquamarine; */
+		padding: 7% 0px 0px 10%;
+		/* background: cadetblue; */
+		/* display: none; */
+		width: 100%;
+	}
+	.contact-p {
+		display: flex;
+		/* background: rebeccapurple; */
+		width: 90%;
+		justify-content: center;
+	}
+	.contact-div {
+		/* background: seagreen; */
+		display: flex;
+		justify-content: space-between;
+		/* align-items: center; */
+		padding: 5% 5% 5% 0%;
+		width: 84%;
+	}
+	.address {
+		font-size: 18px;
+		width: 16%;
+	}
+	.cont-add {
+		font-size: 36px;
+		width: 63%;
+	}
+	.contact-social {
+		margin-top: 15%;
+	}
+}

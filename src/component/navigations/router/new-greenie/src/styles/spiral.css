@@ -1,0 +1,46 @@
+.spiral {
+	
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+		
+
+}
+
+
+
+.sp-1{
+	width: 25%;
+	height: 50%;
+	display: block;
+	rotate: 80deg;	
+	position: absolute;
+	top: -15%;
+	right: -8%;
+	
+
+}
+
+.sp-1, .sp-2{
+	opacity: 0.3;
+
+	
+}
+
+.sp-2{
+	width: 25%;
+	height: 50%;
+	display: block;
+	rotate: -20deg;	
+	position: absolute;
+	bottom: -15%;
+	right: -10%;
+	
+
+}
+
+

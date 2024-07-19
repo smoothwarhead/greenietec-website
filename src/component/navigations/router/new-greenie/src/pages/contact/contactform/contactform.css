@@ -1,0 +1,86 @@
+.contact-form {
+	/* background: seagreen; */
+	padding: 0px 24% 0px 23%;
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+.contact-form-inp {
+	display: block;
+	/* background: darkblue; */
+}
+.contact-form-input {
+	margin-bottom: 15px;
+}
+/* .contact-form-input label {
+	margin-bottom: 5px;
+} */
+.contact-form-input input {
+	width: 100%;
+	height: 2.5rem;
+	outline: none;
+	border: 1px solid grey;
+	background: transparent;
+	padding: 2%;
+	font-size: 0.8rem;
+	margin-top: 5px;
+}
+.pro {
+	border: 1px solid grey;
+	width: 100%;
+	height: 2.5rem;
+	outline: none;
+	background: transparent;
+	padding: 2%;
+	font-size: 0.8rem;
+	margin-top: 5px;
+}
+.text {
+	margin-top: 5px;
+}
+.contact-form-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8%;
+}
+.contact-form-sub {
+	background: var(--white);
+	color: #243553;
+	font-weight: 600;
+	/* background: transparent; */
+	width: 180px;
+	height: 40px;
+	outline: none;
+	border: 1px solid var(--white);
+	/* color: var(--gold); */
+	cursor: pointer;
+	position: relative;
+	transition: 0.4s ease-in-out;
+	z-index: 1;
+	font-weight: 600;
+}
+.contact-form-sub:hover {
+	background: transparent;
+	transition: all 0.4s ease-in-out;
+	border: 1px solid #243553;
+	color: var(--white);
+}
+.contact-form-sub::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #243553;
+	z-index: -1;
+	/* opacity: 0.2; */
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.4s ease-in-out;
+}
+.contact-form-sub:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}

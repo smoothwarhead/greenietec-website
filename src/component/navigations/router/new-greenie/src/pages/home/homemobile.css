@@ -1,0 +1,186 @@
+@media (max-width: 440px) {
+	.section-right {
+		
+		padding: 18% 0% 0px 7%;
+	}
+	.dev {
+		font-size: 34px;
+		
+		font-weight: 500;
+	
+		width: 90%;
+	
+		margin-bottom: calc(100vh - 500px);
+	
+	}
+	.home-p,
+	p {
+		
+		font-size: 14px;
+		
+		font-weight: 300;
+		width: 85%;
+		line-height: 20px;
+	
+		margin-bottom: 25px;
+	}
+	.learn-more-btn {
+		width: 131px;
+		height: 35px;
+	}
+	.flex-dev {
+	
+		width: 100%;
+		text-align: left;
+	
+		letter-spacing: 0px;
+		color: #f7dd95;
+		margin-bottom: 40px;
+		font-size: 33px;
+		line-height: 40px;
+	}
+	.flex-p {
+		font-size: 1rem;
+		
+		width: 103%;
+		line-height: 30px;
+	}
+	.h-2 {
+		margin-top: 100%;
+		font-family: "Acumin Pro";
+		font-size: 18px;
+		margin-bottom: 0px;
+	
+		width: 90%;
+	}
+	
+	.home-form {
+	
+		margin-top: 5%;
+		padding: 0% 12% 0% 8%;
+		height: auto;
+	}
+	.input {
+	
+		margin-bottom: 12px;
+	}
+	input {
+		width: 100%;
+		height: 40px;
+		font-size: 0.6rem;
+	}
+	textarea {
+		width: 100%;
+		height: 16vh;
+	}
+	.btn {
+		margin-top: 35px;
+	}
+	.attach,
+	.submit {
+		width: 28%;
+		height: 35px;
+		font-size: 12px;
+	}
+
+	.footer-side-bar {
+		width: 100%;
+		height: 70px;
+	}
+	.footer-main-body {
+		padding: 5% 10% 0% 12%;
+	}
+	.upper {
+	
+		width: 100%;
+		margin-bottom: 10%;
+	}
+	.footer-card {
+	
+		margin-bottom: 60px;
+	}
+	.footer-card h1 {
+	
+		margin-bottom: 70px;
+		font-size: 53px;
+		line-height: 65px;
+		margin-bottom: 15px;
+	}
+	.mobile-social {
+		margin-bottom: 35%;
+	}
+	.social-h2 {
+		font-size: 20px;
+	}
+	.social-links {
+		margin-top: 10px;
+	}
+	.social-links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 30%;
+	}
+	.social-links-li a {
+		text-decoration: none;
+		height: 25px;
+		width: 25px;
+		background: grey;
+		border-radius: 5px;
+	}
+	.copyright-mobile {
+		
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		font-size: 12px;
+		font-family: "acumin pro";
+		font-weight: 200;
+	}
+	
+	.scroll-line {
+		height: 30px;
+		width: 1px;
+	}
+	
+	.contact-form {
+		
+		padding: 10% 10% 0px 4%;
+	}
+	.contact-form-btn {
+		margin-top: 15%;
+	}
+	.text {
+		margin-top: 5px;
+		height: 220px;
+	}
+	.section-contact-3 {
+	
+		padding: 25% 0px 0px 10%;
+	}
+	.contact-div {
+	
+		display: flex;
+		justify-content: space-between;
+	
+		padding: 10% 0% 10% 0%;
+		width: 90%;
+	}
+	.address {
+		font-size: 14px;
+		width: 22%;
+	
+	}
+	.cont-add {
+		font-size: 22px;
+		width: 70%;
+	}
+	.contact-social {
+		margin-top: 15%;
+		padding: 0px 34% 0px 22%;
+	}
+	.contact-img {
+		width: 30px;
+		height: 30px;
+	}
+}

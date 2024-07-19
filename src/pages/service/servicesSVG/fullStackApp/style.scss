@@ -1,0 +1,65 @@
+.parent{
+    width: 50px;
+    aspect-ratio: 1;
+    // height: 40px;
+    // background: lightblue;
+    border-radius: 50%;
+    position: relative;
+    animation: rot 90s linear infinite;
+    display: grid;
+    place-content: center;
+
+}
+.mid {
+    // background: darkslategrey;
+    animation:  hold-position 90s linear infinite reverse;
+    font-size: 10px;
+
+    // width: 100%;
+    // height: auto;
+}
+.circle{
+    --size: 25px;
+    --offset:60px;
+    width: var(--size);
+    aspect-ratio: 1;
+    height: var(--size);
+    // background-color: orangered;
+    position: absolute;
+    // border-radius: 50%;
+    top: calc(var(--size) / 2);
+    left: calc(var(--size) / 2);
+    display: grid;
+    place-content: center;
+    // display: none;
+    transform: 
+    translate(
+        calc(cos(var(--degrees)) * var(--offset)),
+        calc(sin(var(--degrees)) * var(--offset))
+    );
+    // rotate: .5turn;
+   & > *{
+   animation:  hold-position 90s linear infinite reverse;
+    // background: green;
+    width: 100%;
+    height: 100%;
+    fill: #1d661d;
+    fill: white;
+   }
+}
+$total: 6;
+@for $i from 1 through $total {
+    .circle:nth-last-of-type(#{$i}){
+        --degrees: #{$i} * 360deg / #{$total}; 
+    }
+}
+@keyframes rot{
+    100%{
+        rotate: 1turn;
+    }
+}
+@keyframes hold-position{
+    100%{
+        rotate: 1turn;
+    }
+}

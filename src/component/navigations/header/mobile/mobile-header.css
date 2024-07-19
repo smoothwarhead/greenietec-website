@@ -1,0 +1,178 @@
+.mobile-header {
+
+	position: fixed;
+    display: none;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0px 3%;
+	top: 0;
+	left: 0;
+    width: 100%;
+    z-index: 4;
+    height: 80px;
+	/* border: solid 1px yellow; */
+	border-bottom: solid 1px gray;
+
+	
+}
+
+.mobile-header a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    text-decoration: none;
+   
+}
+
+.mobile-logo-pic svg {
+	width: 80%;
+}
+
+
+.mobile-logo-text {
+	font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+	font-family: "Botanika", "Orelo SemiWide Heavy";
+	z-index: 2;
+    
+}
+
+.mobile-navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+    
+}
+
+@media (min-width: 0px) and (max-width: 1024px){
+
+    .mobile-header {
+        display: flex;
+       
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 920px){
+
+    .mobile-header a{
+        width: 30%;
+       
+    }
+
+}
+
+
+@media (min-width: 660px) and (max-width: 768px){
+
+    .mobile-header a{
+        width: 35%;
+       
+    }
+
+}
+
+
+@media (min-width: 580px) and (max-width: 660px){
+
+
+    .mobile-header a{
+        width: 40%;
+       
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 580px){
+
+
+    .mobile-header a{
+        width: 35%;
+       
+    }
+
+    .mobile-logo-pic svg {
+        width: 80%;
+    }
+
+    
+    .mobile-logo-text {
+        font-size: 2.75vw;
+                
+    }
+
+}
+
+
+@media (min-width: 400px) and (max-width: 580px){
+
+
+    .mobile-header a{
+        width: 40%;
+       
+    }
+
+    .mobile-logo-pic svg {
+        width: 80%;
+    }
+
+    
+    .mobile-logo-text {
+        font-size: 3.25vw;
+        font-weight: bold;
+                
+    }
+
+}
+
+
+
+@media (min-width: 375px) and (max-width: 400px){
+
+
+    .mobile-header a{
+        width: 50%;
+       
+    }
+
+    .mobile-logo-pic svg {
+        width: 80%;
+    }
+
+    
+    .mobile-logo-text {
+        font-size: 4vw;
+        font-weight: bold;
+                
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 375px){
+
+
+    .mobile-header a{
+        width: 50%;
+       
+    }
+
+    .mobile-logo-pic svg {
+        width: 80%;
+    }
+
+    
+    .mobile-logo-text {
+        font-size: 3.75vw;
+        font-weight: bold;
+                
+    }
+
+}

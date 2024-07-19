@@ -63,4 +63,4 @@ const MobileProjectCard = (props) => {
     )
 }
 
-export default MobileProjectCard
+export default MobileProjectCard;

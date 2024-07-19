@@ -13,8 +13,6 @@ export const TransitionProvider = ({ children }) => {
     const [pathName, setPathName] = useState(false);
     const [navCompleted, setNavCompleted] = useState(false);
 
-//   const location = useLocation(); 
-
 
     const pageTransition = gsap.timeline({
         paused: true,

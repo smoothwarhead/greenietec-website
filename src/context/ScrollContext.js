@@ -16,7 +16,6 @@ export const ScrollProvider = ({ children }) => {
     const bg = useRef();
     const header = useRef();
     const  mobileHeader = useRef();
-    // let index = 0;
     const [lastIndex, setLastIndex] = useState(0);
     const [scrollFooter, setScrollFooter] = useState(false);
 
@@ -28,15 +27,13 @@ export const ScrollProvider = ({ children }) => {
         <ScrollContext.Provider value={{ 
           
             scroller,
-            // sections,
-            // addToSections,
+  
             homeRef,
-            // setHomeRef,
             main,
             footerCon,
             footerRef,
             canvas, bg, header,
-            // index,
+    
             lastIndex,  setLastIndex,
             scrollFooter, setScrollFooter,
             mobileHeader

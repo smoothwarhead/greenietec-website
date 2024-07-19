@@ -4,6 +4,8 @@
   --margin: 10px;
   --font: Orelo SemiWide Heavy;
   --font-medium: Botanika Medium;
+	--big-font: "griffon", "Aviano", "Times New Roman";
+
 
   --gold: #f7dd95;
 }
@@ -90,7 +92,7 @@
   text-align: left;
   font-size: 40px;
   opacity: 1;
-  font-family: var(--font-mediun);
+  font-family: var(--big-font);
   text-transform: uppercase;
  
 }
@@ -112,7 +114,7 @@
 .panel .devh1 {
   font-size: 70px;
   opacity: 1;
-  font-family: var(--font-medium);
+  font-family: var(--big-font);
   text-transform: capitalize;
 
 }
@@ -205,7 +207,7 @@
   align-items: center;
   font-size: 14px;
   z-index: -1;
-  font-family: var(--font-mediun);
+  font-family: var(--big-font);
  
 }
 
@@ -549,12 +551,12 @@
   
   
   .panel .devh2 {  
-    font-size: 5vw;
+    font-size: 5.25vw;
     
   }
 
   .panel .devp {  
-    font-size: 3.5vw;
+    font-size: 3.75vw;
     
   }
 

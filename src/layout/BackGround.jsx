@@ -7,13 +7,13 @@ import {ViewContext} from '../context/ViewContext';
 
 const BackGround = () => {
 
-  const { xl } = useContext(ViewContext);
+  const { xl, medium } = useContext(ViewContext);
 
 
   return (
     <div className="back-g">
         <div className="sphere-bg">
-            <BgSphere />
+            {!medium && <BgSphere />}
         </div>
 
         {!xl && <Spiral />}
